@@ -24,6 +24,7 @@ The goals / steps of this project are the following:
 [image11]: ./examples/norm.png "Before/After preprocessing"
 [image12]: ./examples/augment.png "Before/After augmentation"
 [image13]: ./rsz_priority_2.jpg "Traffic Sign 6"
+[image14]: ./examples/new_images.png "New Traffic Signs"
 
 ## Rubric Points
 Here I will consider the [rubric points](https://review.udacity.com/#!/rubrics/481/view) individually and describe how I addressed each point in my implementation.  
@@ -144,8 +145,7 @@ I decided to add another convolutional layer based on the architecture described
 
 Here are German traffic signs that I found on the web:
 
-![alt text][image4] ![alt text][image5] ![alt text][image6] 
-![alt text][image7] ![alt text][image8] ![alt text][image13] 
+![alt text][image14] 
 
 The first image should be fairly easy for the model to classify, and chosen just to prove this as a sanity check. The next image is a road work sign which is blurred and slightly rotated which should make it difficult for the model to classify. The third image is of a no passing traffic sign. This image has bright sunlight shining behind it in the bottom right corner and bears similarities to other circular traffic signs with shapes in the center making it a candidate for mis-classification. The fourth and fifth images are of a warning sign which is taken in dark conditions - one with a text sign below it and one which zooms in on only the warning sign. The sixth image is of the priority road traffic sign. I chose this sign because it is slightly different from the other signs in that it has a diamond shape and color (yellow). It would be interesting to see if this results in mis-classification due to grayscale conversion. Also, this image has traces of other objects - a pole behind it, and small chip of the traffic light.
 
