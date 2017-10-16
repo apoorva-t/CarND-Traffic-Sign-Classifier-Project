@@ -144,9 +144,7 @@ I decided to add another convolutional layer based on the architecture described
 #### 1. Choose five German traffic signs found on the web and provide them in the report. For each image, discuss what quality or qualities might be difficult to classify.
 
 Here are German traffic signs that I found on the web:
-
-![alt text][image14] 
-
+![alt text][image14]
 The first image should be fairly easy for the model to classify, and chosen just to prove this as a sanity check. The next image is a road work sign which is blurred and slightly rotated which should make it difficult for the model to classify. The third image is of a no passing traffic sign. This image has bright sunlight shining behind it in the bottom right corner and bears similarities to other circular traffic signs with shapes in the center making it a candidate for mis-classification. The fourth and fifth images are of a warning sign which is taken in dark conditions - one with a text sign below it and one which zooms in on only the warning sign. The sixth image is of the priority road traffic sign. I chose this sign because it is slightly different from the other signs in that it has a diamond shape and color (yellow). It would be interesting to see if this results in mis-classification due to grayscale conversion. Also, this image has traces of other objects - a pole behind it, and small chip of the traffic light.
 
 #### 2. Discuss the model's predictions on these new traffic signs and compare the results to predicting on the test set. At a minimum, discuss what the predictions were, the accuracy on these new predictions, and compare the accuracy to the accuracy on the test set (OPTIONAL: Discuss the results in more detail as described in the "Stand Out Suggestions" part of the rubric).
