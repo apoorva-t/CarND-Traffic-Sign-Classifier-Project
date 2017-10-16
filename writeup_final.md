@@ -62,7 +62,7 @@ Also shown are one image each from the 43 classes of signs, along with the sampl
 
 Randomly chosen images from a particular class helps in understanding how samples could vary in brightness, contrast, position etc. The training data preprocessing step will use information gained through the visualization step to introduce corrections/perturbations in the data to make the learning model more robust.
 
-[alt text][image10]
+![alt text][image10]
 
 ### Design and Test a Model Architecture
 
